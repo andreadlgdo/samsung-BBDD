@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: localhost
--- Tiempo de generación: 13-06-2023 a las 16:03:18
+-- Tiempo de generación: 18-06-2023 a las 19:18:17
 -- Versión del servidor: 10.4.28-MariaDB
 -- Versión de PHP: 8.2.4
 
@@ -39,7 +39,8 @@ CREATE TABLE `USUARIO` (
 --
 
 INSERT INTO `USUARIO` (`ID`, `NOMBRE`, `APELLIDO`, `EMAIL`) VALUES
-(1, 'Antonio', 'Delgado', 'antoniod@gmail.com');
+(1, 'Antonio', 'Delgado', 'antoniod@gmail.com'),
+(2, 'John', 'Doe', 'johndoe@example.com');
 
 --
 -- Índices para tablas volcadas
@@ -59,7 +60,7 @@ ALTER TABLE `USUARIO`
 -- AUTO_INCREMENT de la tabla `USUARIO`
 --
 ALTER TABLE `USUARIO`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
